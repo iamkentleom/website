@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.mono-font {
+  font-family: "Roboto Mono", monospace;
+}
+
+#root {
+  @apply max-w-screen-lg mx-auto px-6;
+  @apply grid grid-cols-2 gap-4;
+  @apply mt-12;
+}
