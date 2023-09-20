@@ -1,4 +1,5 @@
 import About from "./components/About/About";
+import Connect from "./components/Connect/Connect";
 import Experience from "./components/Experience/Experience";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero/Hero";
@@ -8,13 +9,11 @@ function App() {
   return (
     <>
       <Hero />
-      <div>
+      <div className="grid grid-cols-1 gap-16">
         <About />
-        <br />
         <Experience />
-        <br />
         <Projects />
-        <br />
+        <Connect />
         <Footer />
       </div>
     </>
