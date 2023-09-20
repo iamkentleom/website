@@ -7,7 +7,7 @@ const ExperienceCard = ({
 }) => {
   return (
     <div className="grid grid-cols-3 my-6">
-      <p className="text-sm uppercase font-bold">
+      <p className="text-sm uppercase font-bold mt-[2px]">
         {start} - {end}
       </p>
       <div className="col-span-2">
