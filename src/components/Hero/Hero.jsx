@@ -12,7 +12,10 @@ const Hero = () => {
         </h1>
         <p className="text-xl">Software Engineer, Cebu PH</p>
         <br />
-        <p>Passionate on developing software that people love using.</p>
+        <p>
+          Passionate on developing software
+          <br /> that people love using.
+        </p>
       </div>
       <Socials />
     </div>
