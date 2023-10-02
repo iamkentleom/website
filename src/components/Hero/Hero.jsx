@@ -1,4 +1,4 @@
-import { FaEnvelope, FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
+import Socials from "./Socials";
 
 const Hero = () => {
   return (
@@ -14,25 +14,7 @@ const Hero = () => {
         <br />
         <p>Passionate on developing software that people love using.</p>
       </div>
-      <div>
-        <ul className="flex gap-4 text-2xl">
-          <li>
-            <a href="#">
-              <FaEnvelope />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <FaLinkedinIn />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <FaGithub />
-            </a>
-          </li>
-        </ul>
-      </div>
+      <Socials />
     </div>
   );
 };
