@@ -1,15 +1,38 @@
+import { FaEnvelope, FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
+
 const Hero = () => {
   return (
-    <div>
-      <p className="text-xl">Hello World! I'm</p>
-      <h1 className="font-bold text-5xl">
-        Kent Leo
+    <div className="fixed h-full py-12 flex flex-col justify-between">
+      <div>
+        <p className="text-xl">Hello World! I'm</p>
+        <h1 className="font-bold text-5xl">
+          Kent Leo
+          <br />
+          Makibulan
+        </h1>
+        <p className="text-xl">Software Engineer, Cebu PH</p>
         <br />
-        Makibulan
-      </h1>
-      <p className="text-xl">Software Engineer, Cebu PH</p>
-      <br />
-      <p>Passionate on developing software that people love using.</p>
+        <p>Passionate on developing software that people love using.</p>
+      </div>
+      <div>
+        <ul className="flex gap-4 text-2xl">
+          <li>
+            <a href="#">
+              <FaEnvelope />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <FaLinkedinIn />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <FaGithub />
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };

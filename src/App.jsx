@@ -9,7 +9,8 @@ function App() {
   return (
     <>
       <Hero />
-      <div className="grid grid-cols-1 gap-16">
+      <div className="hidden md:block"></div>
+      <div className="grid grid-cols-1 gap-16 my-12">
         <About />
         <Experience />
         <Projects />

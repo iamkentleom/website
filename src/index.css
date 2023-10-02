@@ -13,5 +13,4 @@
 #root {
   @apply max-w-screen-lg mx-auto px-6;
   @apply grid grid-cols-2 gap-4;
-  @apply mt-12;
 }

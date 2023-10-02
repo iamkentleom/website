@@ -16,11 +16,11 @@ const ProjectCard = ({
           <h3 className="font-bold">{title}</h3>
           <p className="text-sm">{description}</p>
         </div>
-        <div className="flex gap-x-4 mb-1">
+        <div className="flex flex-wrap gap-x-4 gap-y-1 my-1">
           {techStack.map((e, i) => (
-            <span className="text-xs mono-font" key={i}>
+            <p className="text-xs mono-font" key={i}>
               {e}
-            </span>
+            </p>
           ))}
         </div>
       </div>

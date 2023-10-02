@@ -1,3 +1,4 @@
+import { HiOutlineArrowSmRight } from "react-icons/hi";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
@@ -36,8 +37,12 @@ const Projects = () => {
           key={i}
         />
       ))}
-      <a href="#" className="flex justify-end text-sm font-bold">
-        view all projects
+      <a
+        href="#"
+        className="flex justify-end items-center gap-[2px] group text-sm font-bold"
+      >
+        view all projects{" "}
+        <HiOutlineArrowSmRight className="group-hover:translate-x-1 mt-[2px] transition-transform" />
       </a>
     </div>
   );
