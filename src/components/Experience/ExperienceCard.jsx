@@ -1,3 +1,5 @@
+import parser from "html-react-parser";
+
 const ExperienceCard = ({
   start = "Start Date",
   end = "End Date",
@@ -14,7 +16,7 @@ const ExperienceCard = ({
         <h3 className="font-bold">
           {position}, {company}
         </h3>
-        <p className="text-sm mt-1">{description}</p>
+        <p className="text-sm mt-1">{parser(description)}</p>
       </div>
     </div>
   );
