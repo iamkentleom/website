@@ -1,4 +1,4 @@
-import { HiOutlineArrowSmRight } from "react-icons/hi";
+import { HiChevronRight, HiOutlineArrowSmRight } from "react-icons/hi";
 import ExperienceCard from "./ExperienceCard";
 import experience from "../../content/experience";
 
@@ -19,8 +19,8 @@ const Experience = () => {
         href="#"
         className="flex justify-end items-center gap-[2px] group text-sm font-bold"
       >
-        view resume{" "}
-        <HiOutlineArrowSmRight className="group-hover:translate-x-1 mt-[2px] transition-transform" />
+        view resume <HiChevronRight className="group-hover:hidden mt-[2px]" />
+        <HiOutlineArrowSmRight className="hidden group-hover:block mt-[2px]" />
       </a>
     </div>
   );

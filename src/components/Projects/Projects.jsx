@@ -1,4 +1,4 @@
-import { HiOutlineArrowSmRight } from "react-icons/hi";
+import { HiChevronRight, HiOutlineArrowSmRight } from "react-icons/hi";
 import ProjectCard from "./ProjectCard";
 import projects from "../../content/projects";
 
@@ -18,7 +18,8 @@ const Projects = () => {
         className="flex justify-end items-center gap-[2px] group text-sm font-bold"
       >
         view all projects{" "}
-        <HiOutlineArrowSmRight className="group-hover:translate-x-1 mt-[2px] transition-transform" />
+        <HiChevronRight className="group-hover:hidden mt-[2px]" />
+        <HiOutlineArrowSmRight className="hidden group-hover:block mt-[2px]" />
       </a>
     </div>
   );
