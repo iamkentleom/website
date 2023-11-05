@@ -1,11 +1,19 @@
+import { HiExternalLink } from "react-icons/hi";
+
 const ProjectCard = ({
   image = "https://placehold.co/144x96/d9d9d9/d9d9d9",
   title = "Title",
   description = "description",
   techStack = ["backend", "frontend", "database"],
+  link = "#",
 }) => {
   return (
-    <div className="grid grid-cols-3 my-8">
+    <a
+      href={link}
+      target="_blank"
+      rel="noreferrer"
+      className="group grid grid-cols-3 my-8"
+    >
       <img
         src={image}
         alt={title}
@@ -13,7 +21,10 @@ const ProjectCard = ({
       />
       <div className="col-span-2 flex flex-col justify-between">
         <div>
-          <h3 className="font-bold">{title}</h3>
+          <h3 className="font-bold flex items-center gap-2 hover:text-gray-800">
+            {title}{" "}
+            <HiExternalLink className="hidden group-hover:inline-block" />
+          </h3>
           <p className="text-sm">{description}</p>
         </div>
         <div className="flex flex-wrap gap-x-4 gap-y-1 my-1">
@@ -24,7 +35,7 @@ const ProjectCard = ({
           ))}
         </div>
       </div>
-    </div>
+    </a>
   );
 };
 

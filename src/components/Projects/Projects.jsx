@@ -10,12 +10,15 @@ const Projects = () => {
           title={e.title}
           description={e.description}
           techStack={e.teckStack}
+          link={e.link}
           key={i}
         />
       ))}
       <a
-        href="#"
-        className="flex justify-end items-center gap-[2px] group text-sm font-bold"
+        href="https://github.com/iamkentleom"
+        target="_blank"
+        rel="noreferrer"
+        className="flex justify-end items-center gap-[2px] group text-sm font-bold hover:text-gray-800"
       >
         view all projects{" "}
         <HiChevronRight className="group-hover:hidden mt-[2px]" />
