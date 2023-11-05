@@ -14,16 +14,18 @@ const Projects = () => {
           key={i}
         />
       ))}
-      <a
-        href="https://github.com/iamkentleom"
-        target="_blank"
-        rel="noreferrer"
-        className="flex justify-end items-center gap-[2px] group text-sm font-bold hover:text-gray-800"
-      >
-        view all projects{" "}
-        <HiChevronRight className="group-hover:hidden mt-[2px]" />
-        <HiOutlineArrowSmRight className="hidden group-hover:block mt-[2px]" />
-      </a>
+      <div className="flex justify-end items-center">
+        <a
+          href="https://github.com/iamkentleom"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex items-center gap-[2px] group text-sm font-bold hover:text-gray-800"
+        >
+          view all projects{" "}
+          <HiChevronRight className="group-hover:hidden mt-[2px]" />
+          <HiOutlineArrowSmRight className="hidden group-hover:block mt-[2px]" />
+        </a>
+      </div>
     </div>
   );
 };
