@@ -5,9 +5,9 @@ const Socials = () => {
     <div>
       <ul className="flex gap-5 text-2xl">
         <li className="hover:text-gray-800">
-          <a href="mailto:leomakibulan@gmail.com">
+          <a href="mailto:leomakibulan@gmail.com" aria-label="Email Address">
             <FaEnvelope />
-            <span className="hidden">Email</span>
+            <span className="git">Email Address</span>
           </a>
         </li>
         <li className="hover:text-gray-800">
@@ -15,9 +15,10 @@ const Socials = () => {
             href="https://www.linkedin.com/in/iamkentleom"
             target="_blank"
             rel="noreferrer"
+            aria-label="LinkedIn Profile"
           >
             <FaLinkedinIn />
-            <span className="hidden">LinkedIn</span>
+            <span className="hidden">LinkedIn Profile</span>
           </a>
         </li>
         <li className="hover:text-gray-800">
@@ -25,9 +26,10 @@ const Socials = () => {
             href="https://github.com/iamkentleom"
             target="_blank"
             rel="noreferrer"
+            aria-label="GitHub Profile"
           >
             <FaGithub />
-            <span className="hidden">GitHub</span>
+            <span className="hidden">GitHub Profile</span>
           </a>
         </li>
       </ul>
