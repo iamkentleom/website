@@ -16,8 +16,10 @@ const Experience = () => {
         />
       ))}
       <a
-        href="#"
-        className="flex justify-end items-center gap-[2px] group text-sm font-bold"
+        href="https://docs.google.com/document/d/15o7DNuIFCUDZeTz_ZXmEUZ9p4qiJfQIXRy_qvk_r4vs/export?format=pdf&attachment=false"
+        target="_blank"
+        rel="noreferrer"
+        className="flex justify-end items-center gap-[2px] group text-sm font-bold hover:text-gray-800"
       >
         view resume <HiChevronRight className="group-hover:hidden mt-[2px]" />
         <HiOutlineArrowSmRight className="hidden group-hover:block mt-[2px]" />
