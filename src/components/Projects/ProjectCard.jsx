@@ -9,7 +9,7 @@ const ProjectCard = ({
       <img
         src={image}
         alt={title}
-        className="w-36 h-24 bg-gray-200 border-none rounded-lg"
+        className="w-[104px] h-20 md:w-36 md:h-24 bg-gray-200 border-none rounded-lg"
       />
       <div className="col-span-2 flex flex-col justify-between">
         <div>
