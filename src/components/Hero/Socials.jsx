@@ -7,7 +7,7 @@ const Socials = () => {
         <li className="hover:text-gray-800">
           <a href="mailto:leomakibulan@gmail.com" aria-label="Email Address">
             <FaEnvelope />
-            <span className="git">Email Address</span>
+            <span className="hidden">Email Address</span>
           </a>
         </li>
         <li className="hover:text-gray-800">
