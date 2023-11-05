@@ -4,13 +4,13 @@ const Socials = () => {
   return (
     <div>
       <ul className="flex gap-5 text-2xl">
-        <li>
+        <li className="hover:text-gray-800">
           <a href="mailto:leomakibulan@gmail.com">
             <FaEnvelope />
             <span className="hidden">Email</span>
           </a>
         </li>
-        <li>
+        <li className="hover:text-gray-800">
           <a
             href="https://www.linkedin.com/in/iamkentleom"
             target="_blank"
@@ -20,7 +20,7 @@ const Socials = () => {
             <span className="hidden">LinkedIn</span>
           </a>
         </li>
-        <li>
+        <li className="hover:text-gray-800">
           <a
             href="https://github.com/iamkentleom"
             target="_blank"
