@@ -4,7 +4,7 @@ import experience from "../../content/experience";
 
 const Experience = () => {
   return (
-    <div>
+    <section id="experience" aria-label="Work Experience">
       {experience.map((e, i) => (
         <ExperienceCard
           start={e.start}
@@ -26,7 +26,7 @@ const Experience = () => {
           <HiOutlineArrowSmRight className="hidden group-hover:block mt-[2px]" />
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 

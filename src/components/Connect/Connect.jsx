@@ -1,6 +1,10 @@
 const Connect = () => {
   return (
-    <div className="flex justify-between items-center my-8">
+    <section
+      id="connect"
+      className="flex justify-between items-center my-8"
+      aria-label="Connect with Me"
+    >
       <div>
         <p>Let's get some work done and</p>
         <p>
@@ -13,7 +17,7 @@ const Connect = () => {
       >
         Hire Me!
       </a>
-    </div>
+    </section>
   );
 };
 

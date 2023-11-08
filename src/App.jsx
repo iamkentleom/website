@@ -10,13 +10,13 @@ function App() {
     <>
       <Hero />
       <div className="hidden md:block"></div>
-      <div className="grid grid-cols-1 gap-16 my-12">
+      <main id="content" className="grid grid-cols-1 gap-16 my-12">
         <About />
         <Experience />
         <Projects />
         <Connect />
         <Footer />
-      </div>
+      </main>
     </>
   );
 }

@@ -4,7 +4,7 @@ import projects from "../../content/projects";
 
 const Projects = () => {
   return (
-    <div>
+    <section id="projects" aria-label="Personal Projects">
       {projects.map((e, i) => (
         <ProjectCard
           title={e.title}
@@ -26,7 +26,7 @@ const Projects = () => {
           <HiOutlineArrowSmRight className="hidden group-hover:block mt-[2px]" />
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 

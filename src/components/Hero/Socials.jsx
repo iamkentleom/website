@@ -3,7 +3,7 @@ import { FaEnvelope, FaLinkedinIn, FaGithub } from "react-icons/fa";
 const Socials = () => {
   return (
     <div>
-      <ul className="flex gap-5 text-2xl">
+      <ul className="flex gap-5 text-2xl" aria-label="Socials">
         <li className="hover:text-gray-800">
           <a href="mailto:leomakibulan@gmail.com" aria-label="Email Address">
             <FaEnvelope />

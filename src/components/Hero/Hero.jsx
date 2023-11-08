@@ -2,7 +2,7 @@ import Socials from "./Socials";
 
 const Hero = () => {
   return (
-    <div className="md:fixed md:h-full md:py-12 mt-12 md:mt-0 gap-y-6 flex flex-col md:justify-between">
+    <header className="md:fixed md:h-full md:py-12 mt-12 md:mt-0 gap-y-6 flex flex-col md:justify-between">
       <div>
         <p className="text-lg md:text-xl">Hello World! I'm</p>
         <h1 className="font-bold text-4xl md:text-5xl">
@@ -17,7 +17,7 @@ const Hero = () => {
         </p>
       </div>
       <Socials />
-    </div>
+    </header>
   );
 };
 
