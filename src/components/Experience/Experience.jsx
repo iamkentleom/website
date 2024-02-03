@@ -20,7 +20,7 @@ const Experience = () => {
       ))}
       <div className="flex justify-end items-center">
         <a
-          href="https://docs.google.com/document/d/15o7DNuIFCUDZeTz_ZXmEUZ9p4qiJfQIXRy_qvk_r4vs/export?format=pdf&attachment=false"
+          href="https://drive.google.com/file/d/1fzn-GgAMpDDiWu2d7Uom4O0dYYeZErCX/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
           className="inline-flex items-center gap-[2px] group text-sm font-bold hover:text-gray-800"
