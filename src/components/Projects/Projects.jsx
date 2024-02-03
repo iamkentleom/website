@@ -7,6 +7,7 @@ const Projects = () => {
     <section id="projects" aria-label="Personal Projects">
       {projects.map((e, i) => (
         <ProjectCard
+          image={e.image}
           title={e.title}
           description={e.description}
           techStack={e.teckStack}

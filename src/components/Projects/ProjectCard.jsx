@@ -14,11 +14,13 @@ const ProjectCard = ({
       rel="noreferrer"
       className="group grid grid-cols-3 my-8"
     >
-      <img
-        src={image}
-        alt={title}
-        className="w-[104px] h-20 md:w-36 md:h-24 bg-gray-200 border-none rounded-lg"
-      />
+      <div className="w-[104px] h-20 md:w-36 md:h-24 rounded-lg overflow-hidden border-[1px] border-gray-200">
+        <img
+          src={image}
+          alt={title}
+          className="bg-gray-200 group-hover:scale-125 transition-transform"
+        />
+      </div>
       <div className="col-span-2 flex flex-col justify-between">
         <div>
           <h3 className="font-bold flex items-center gap-2 hover:text-gray-800">
