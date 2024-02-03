@@ -5,6 +5,9 @@ import projects from "../../content/projects";
 const Projects = () => {
   return (
     <section id="projects" aria-label="Personal Projects">
+      <h2 className="text-sm font-bold sticky py-4 top-0 bg-white md:hidden">
+        PROJECTS
+      </h2>
       {projects.map((e, i) => (
         <ProjectCard
           image={e.image}
@@ -17,7 +20,7 @@ const Projects = () => {
       ))}
       <div className="flex justify-end items-center">
         <a
-          href="https://github.com/iamkentleom"
+          href="https://github.com/iamkentleom?tab=repositories"
           target="_blank"
           rel="noreferrer"
           className="inline-flex items-center gap-[2px] group text-sm font-bold hover:text-gray-800"

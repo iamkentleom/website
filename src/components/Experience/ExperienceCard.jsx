@@ -8,7 +8,7 @@ const ExperienceCard = ({
   description = "Description",
 }) => {
   return (
-    <div className="grid grid-cols-3 my-6">
+    <div className="grid grid-cols-3 mb-6 md:my-6">
       <p className="text-sm uppercase font-bold mt-[2px]">
         {start} - {end}
       </p>
