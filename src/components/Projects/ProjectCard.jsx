@@ -18,7 +18,7 @@ const ProjectCard = ({
         <img
           src={image}
           alt={title}
-          className="bg-gray-200 h-full object-cover group-hover:scale-125 transition-transform"
+          className="bg-gray-200 h-full w-full object-cover group-hover:scale-125 transition-transform"
         />
       </div>
       <div className="col-span-2 flex flex-col justify-between">
