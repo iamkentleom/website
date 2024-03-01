@@ -10,6 +10,10 @@
   font-family: "Roboto Mono", monospace;
 }
 
+body {
+  @apply bg-slate-100;
+}
+
 #root {
   @apply max-w-screen-lg mx-auto px-8;
   @apply grid grid-cols-1 md:grid-cols-2 gap-x-4;
