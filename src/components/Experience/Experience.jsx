@@ -5,7 +5,7 @@ import experience from "../../content/experience";
 const Experience = () => {
   return (
     <section id="experience" aria-label="Work Experience">
-      <h2 className="text-sm font-bold sticky py-4 top-0 bg-white md:hidden">
+      <h2 className="text-sm font-bold sticky py-4 top-0 bg-slate-50 md:hidden">
         EXPERIENCE
       </h2>
       {experience.map((e, i) => (

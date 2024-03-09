@@ -5,7 +5,7 @@ import projects from "../../content/projects";
 const Projects = () => {
   return (
     <section id="projects" aria-label="Personal Projects">
-      <h2 className="text-sm font-bold sticky py-4 top-0 bg-white md:hidden">
+      <h2 className="text-sm font-bold sticky py-4 top-0 bg-slate-50 md:hidden">
         PROJECTS
       </h2>
       {projects.map((e, i) => (
