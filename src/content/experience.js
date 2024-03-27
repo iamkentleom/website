@@ -1,11 +1,18 @@
 const experience = [
   {
-    start: "Dec 2022",
+    start: "Apr 2024",
     end: "Present",
+    position: "Software Engineer",
+    company: "BDO Unibank Inc.",
+    description: "---",
+  },
+  {
+    start: "Dec 2022",
+    end: "Mar 2024",
     position: "Jr. Full Stack Developer",
     company: "NuWorks Interactive Labs, Inc.",
     description:
-      "Worked on performance marketing tools for a digital bank. Utilized MoEngage as the primary CRM tool. Coded the EDM templates on SendGrid.<br><br>Developed a custom eCommerce platform for a client, contributing to both backend and frontend. Used Laravel for the development of the CMS and the API, and React for the shopping site's frontend.<br><br>Performed VAPT remediations for a messenger chatbot app, written in Laravel.<br><br>Engaged on building a donation site for a non-profit organization. Utilized Drupal as the primary CMS.<br><br>Added a feature on an internal tool for aggregating Facebook and Google Ads metrics into a spreadsheet.<br><br>Contributed on the development of a product catalog site for instant noodles, using Next.js, TypeScript, and Express.",
+      "Worked on performance marketing tools for a digital bank. Utilized MoEngage as the primary CRM tool. Coded the EDM templates on SendGrid.<br><br>Developed a custom eCommerce platform for a client, contributing to both backend and frontend. Used Laravel for the development of the CMS and the API, and React for the shopping site's frontend.<br><br>Performed VAPT remediations for a messenger chatbot app, written in Laravel.<br><br>Engaged on building a donation site for a non-profit organization. Utilized Drupal as the primary CMS.<br><br>Added a feature on an internal tool for aggregating Facebook and Google Ads metrics into a spreadsheet.<br><br>Contributed on the development of a product catalog site for instant noodles, using Next.js, TypeScript, and Express.<br><br>Performed initial static and dynamic application security testing on a third-party travel app.",
   },
   {
     start: "Jun 2021",
