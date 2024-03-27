@@ -1,4 +1,6 @@
+import parser from "html-react-parser";
 import Socials from "./Socials";
+import hero from "../../content/hero";
 
 const Hero = () => {
   return (
@@ -10,11 +12,8 @@ const Hero = () => {
           <br />
           Makibulan
         </h1>
-        <p className="text-lg md:text-xl">Software Engineer, Cebu PH</p>
-        <p className="mt-4">
-          Passionate on developing software
-          <br /> that people love using.
-        </p>
+        <p className="text-lg md:text-xl mt-1">{hero?.title}</p>
+        <p className="mt-4">{parser(hero?.description)}</p>
       </div>
       <Socials />
     </header>
