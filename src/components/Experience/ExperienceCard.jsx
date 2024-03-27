@@ -12,7 +12,7 @@ const ExperienceCard = ({
       <p className="text-sm uppercase font-bold mt-[2px]">
         {start} - {end}
       </p>
-      <div className="col-span-2">
+      <div className="col-span-2 pl-2">
         <h3 className="font-bold">
           {position}, {company}
         </h3>
