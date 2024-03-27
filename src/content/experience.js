@@ -18,7 +18,7 @@ const experience = [
     start: "Jun 2021",
     end: "Dec 2021",
     position: "Development Lead",
-    company: "FlipToons",
+    company: "Fliptoons",
     description:
       "Led the development of Fliptoons, a privacy-first comic reading platform implementing web monetization through Coil and backed by Grant for the Web. Spearheaded the development of Fliptoons API using Express, MongoDB, and Cloudinary. And on the frontend, utilizing NuxtJS and TailwindCSS.",
   },
